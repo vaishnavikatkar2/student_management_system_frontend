@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios'
 function App() {
-  const BASE_URL = 'http://127.0.0.1:8000'
+  // const BASE_URL = 'http://127.0.0.1:8000'
+  const BASE_URL = 'https://student-management-system-ba81.onrender.com'
   const [students, setStudents] = useState([])
   const [id, setId] = useState('')
   const [name, setName] = useState('')
